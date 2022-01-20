@@ -56,9 +56,38 @@ High Availability
 
 ## Elastic Load Balancing
 
+Load Balancer
+- server that forwards traffic to multiple downstream servers
+- balances the traffic load
+- Exposes a single point of access to your application
+ 
+### Why use a Load Balancer
+
+- Spread traffic evenly across many instances
+- gracefully handle failure of downstream instances
+- Can do regular health checks for instances
+- Can provide SSL termination (HTTPS) to website
+- Enforce stickiness with cookies
+- Allows for high availability
+- separate public traffic from private traffic
+
 ---
 
+### Elastic Load Balancer
 
+- AWS's managed load balancer
+- AWS
+  - guarantees it to work
+  - manages upgrades, maintainance
+  - provides only a few configuration knobs
+
+- Much easier than setting up your own load balancer
+
+- Integrates with many AWS offerings
+
+---
+
+### Health Checks
 
 
 
